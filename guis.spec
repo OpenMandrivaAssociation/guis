@@ -18,6 +18,7 @@ BuildRequires:  ruby-devel
 BuildRequires:  tetex-latex
 BuildRequires:  tetex-dvips
 BuildRequires:  ghostscript-dvipdf
+BuildRoot: 	%{_tmppath}/%{name}-%{version}
 
 %description 
 Guis widget server is a Gtk2 widget server. It listens on pipes for widget
