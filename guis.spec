@@ -1,6 +1,6 @@
 %define name	guis
 %define version 1.6
-%define release %mkrel 9
+%define release %mkrel 10
 
 Name: 		%{name}
 Version: 	%{version}
