@@ -1,0 +1,22 @@
+--- Configure~	2004-05-09 21:43:32.000000000 +0200
++++ Configure	2004-05-14 14:29:06.865943797 +0200
+@@ -200,12 +200,6 @@
+ 	exit 1
+     fi
+ 
+-    pythongtkversion=$($python -c 'import gtk; print gtk.gtk_version')
+-    if [ -z "$pythongtkversion" -o ! $? ]; then
+-	echo python gtk not installed ... maybe install it and reconfigure
+-	return
+-    fi
+-
+     echoconf PYTHON_VERSION=$pythonversion
+     echoconf PYTHON_GTK_VERSION=$pythongtkversion
+ 
+@@ -327,4 +321,4 @@
+     echoconf SLANG_VERSION=$slangversion
+     echoconf SLGTK_VERSION=$slgtkversion
+ }
+-#eof $Id: Configure 1.4 Sun, 09 May 2004 21:43:24 +0200 basile $
+\ No newline at end of file
++#eof $Id: Configure 1.4 Sun, 09 May 2004 21:43:24 +0200 basile $
