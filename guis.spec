@@ -8,7 +8,7 @@ Release: 	%{release}
 License: 	LGPL
 Summary:	GUI widget server
 Group:		Publishing
-URL:		http://starynkevitch.net/Basile/guisdoc.html
+URL:		https://starynkevitch.net/Basile/guisdoc.html
 Source:		http://starynkevitch.net/Basile/%{name}-%{version}.tar.bz2
 Patch:		%{name}-1.5.configure.patch
 BuildRequires:	ruby-gnome2-devel
