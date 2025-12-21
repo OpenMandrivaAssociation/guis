@@ -11,6 +11,7 @@ Group:		Publishing
 URL:		https://starynkevitch.net/Basile/guisdoc.html
 Source:		http://starynkevitch.net/Basile/%{name}-%{version}.tar.bz2
 Patch:		%{name}-1.5.configure.patch
+BuildRequires:	make
 BuildRequires:	ruby-gnome2-devel
 BuildRequires:	pygtk2.0-devel
 BuildRequires:	hevea
